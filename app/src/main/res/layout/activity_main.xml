@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llPrimero"
+        android:layout_width="283dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAñadirEquipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingTop="80dp"
+                android:text="Añade Tu Equipo"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/ivEquipo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/vector_illustration_with_the_image_of_a_soccer_team_eps_vector_csp14995182" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llJugador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAñadeJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingTop="20dp"
+                android:text="Añade Jugador"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/ivJugador"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/vector_illustration_with_the_image_of_a_soccer_team_eps_vector_csp14995182" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llScouting"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvScoutingJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingTop="20dp"
+                android:text="Scouting"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/ivScouting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/vector_illustration_with_the_image_of_a_soccer_team_eps_vector_csp14995182" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBotones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/faBotonAñadirEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="140dp"
+            android:clickable="true"
+            app:backgroundTint="@color/principal"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/faBotonAñadirJugador"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="120dp"
+            android:clickable="true"
+            app:backgroundTint="@color/principal"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/faBotonAñadirScouting"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="120dp"
+            android:clickable="true"
+            app:backgroundTint="@color/principal"
+            app:srcCompat="@android:drawable/ic_input_add" />
+    </LinearLayout>
+</LinearLayout>

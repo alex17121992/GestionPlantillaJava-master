@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llPrincipalJ"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jugador">
+
+    <TextView
+        android:id="@+id/tvJugadorJ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/principal"
+        android:gravity="center"
+        android:text="Jugador"
+        android:textSize="36sp"
+        tools:text="Jugador" />
+
+    <ImageView
+        android:id="@+id/ivFotoJ"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:paddingTop="30dp"
+        app:srcCompat="@mipmap/iconojugador" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gdLayoutJ"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="10dp"
+        app:columnCount="2"
+        app:rowCount="11"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="292dp">
+
+        <TextView
+            android:id="@+id/tvNombreJ"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Nombre"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNombreJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="Nombre" />
+
+        <TextView
+            android:id="@+id/tvApellidosJ"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Apellidos"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etApellidosJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="Apellidos" />
+
+        <TextView
+            android:id="@+id/tvNDeportivoJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="N.Deportivo"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNDeportivoJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="N.Deportivo" />
+
+        <TextView
+            android:id="@+id/tvEdadJ"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Edad"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEdadJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="Edad" />
+
+        <TextView
+            android:id="@+id/tvAlturaJ"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Altura"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etAlturaJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="Altura" />
+
+        <TextView
+            android:id="@+id/tvPesoJ"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Peso"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPesoJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="Peso" />
+
+        <TextView
+            android:id="@+id/tvDeHabitualJ"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Demar.Habitual"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDeHabitualJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="Demarc.Habitual" />
+
+        <TextView
+            android:id="@+id/tvDeSecundariaJ"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Demar.Secundaria"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDeSecundariaJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="D.Secundaria" />
+
+        <TextView
+            android:id="@+id/tvPDominanteJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Pie Dominante"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPDominanteJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="Pie Dominante" />
+
+        <TextView
+            android:id="@+id/tvLesionesJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Lesiones"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etLesionesJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="Lesiones" />
+
+        <TextView
+            android:id="@+id/tvEAnterioresJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="E. Anteriores"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEAnterioresJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:text="E. Anteriores" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>
